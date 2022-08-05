@@ -1,0 +1,15 @@
+{
+  "name": "design-tokens",
+  "version": "1.0.0",
+  "description": "This example code is bare-bones to show you what this framework can do. If you have the style-dictionary module installed globally, you can `cd` into this directory and run: ```bash style-dictionary build ```",
+  "main": "index.js",
+  "scripts": {
+    "build": "node src/index.js"
+  },
+  "dependencies": {
+    "style-dictionary": "^3.7.1"
+  },
+  "devDependencies": {},
+  "author": "",
+  "license": "ISC"
+}
