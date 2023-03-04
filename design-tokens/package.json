@@ -2,7 +2,10 @@
   "name": "design-tokens",
   "version": "1.0.0",
   "description": "This example code is bare-bones to show you what this framework can do. If you have the style-dictionary module installed globally, you can `cd` into this directory and run: ```bash style-dictionary build ```",
-  "main": "index.js",
+  "main": "src/index.js",
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "build": "node src/index.js"
   },
