@@ -1,4 +1,4 @@
-const webpackBase = require("../webpack.config");
+const webpackBase = require("../webpack.dev");
 const CopyWebpackPlugin = require("copy-webpack-plugin");
 
 /** @type { import('@storybook/web-components-webpack5').StorybookConfig } */
@@ -13,7 +13,8 @@ const config = {
     autodocs: "tag",
   },
   webpackFinal: (config) => {
-    config.module.rules.push(...webpackBase.module.rules);
+    const webpackConfig = webpackBase();
+    config.module.rules.push(...webpackConfig.module.rules);
     config.plugins.push(
       new CopyWebpackPlugin({
         patterns: [

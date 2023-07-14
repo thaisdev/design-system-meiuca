@@ -1,14 +1,14 @@
 .icon {
-  color: var(--neutral-elements-03);
-  &--sm{
+  color: var(--neutral-color-elements-03);
+  &--sm {
     width: 16px;
     height: 16px;
   }
-  &--md{
+  &--md {
     width: 24px;
     height: 24px;
   }
-  &--lg{
+  &--lg {
     width: 32px;
     height: 32px;
   }
@@ -16,7 +16,7 @@
     width: inherit;
     height: inherit;
 
-    path{
+    path {
       fill: currentColor;
     }
   }
