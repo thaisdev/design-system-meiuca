@@ -119,3 +119,4 @@ out
 
 # build folder
 dist
+storybook-static
